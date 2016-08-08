@@ -1,2 +1,2 @@
 # primefactr
-Use Prime Factorization for computations.
+R package that uses Prime Factorization for computations.

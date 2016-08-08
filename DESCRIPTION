@@ -12,6 +12,6 @@ LazyData: TRUE
 Imports:
 Depends: R (>= 3.2.3)
 RoxygenNote: 5.0.1
-Suggests: testthat
+Suggests: testthat, covr
 URL: https://github.com/privefl/primefactr
 BugReports: https://github.com/privefl/primefactr/issues

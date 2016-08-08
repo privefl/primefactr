@@ -9,7 +9,7 @@ test_that("Errors when n is not an positive integer", {
   expect_error(AllPrimesUpTo(3.5))
 })
 
-test_that("Expect FALSE for IsPrime", {
+test_that("Check AllPrimesUpTo with IsPrime", {
   n <- 1000
   primes <- AllPrimesUpTo(n)
   no.primes <- setdiff(1:n, primes)
@@ -19,4 +19,10 @@ test_that("Expect FALSE for IsPrime", {
   for (np in no.primes) {
     expect_false(IsPrime(np))
   }
+})
+
+test_that("Check AllPrimesUpTo for n = {0, 1, 2}", {
+  expect_equal(AllPrimesUpTo(0), integer(0))
+  expect_equal(AllPrimesUpTo(1), 2L)
+  expect_equal(AllPrimesUpTo(2), c(2L, 3L))
 })

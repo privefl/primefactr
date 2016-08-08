@@ -9,16 +9,15 @@ IsPrime(n)
 \arguments{
 \item{n}{A positive integer.}
 }
+\value{
+A boolean.
+}
 \description{
 Is n a prime number?
 }
 \examples{
-\dontrun{
-IsPrime(0)         # Error : n should be positive
-IsPrime(3.5)       # Error : n should be an integer
 IsPrime(1)         # FALSE
 IsPrime(5)         # TRUE
 IsPrime(59999999)  # TRUE
-}
 }
 

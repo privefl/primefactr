@@ -22,7 +22,7 @@ test_that("Check AllPrimesUpTo with IsPrime", {
 })
 
 test_that("Check AllPrimesUpTo for n = {0, 1, 2}", {
-  expect_equal(AllPrimesUpTo(0), integer(0))
-  expect_equal(AllPrimesUpTo(1), 2L)
-  expect_equal(AllPrimesUpTo(2), c(2L, 3L))
+  expect_equal(AllPrimesUpTo(1), integer(0))
+  expect_equal(AllPrimesUpTo(2), 2L)
+  expect_equal(AllPrimesUpTo(3), c(2L, 3L))
 })

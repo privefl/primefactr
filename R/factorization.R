@@ -15,9 +15,9 @@
 #' }
 #' Note that the first element of a \code{code} has no effect.
 #' @param primes.div The vector of all prime numbers
-#' up to \code{sqrt(length(code))}.
+#' up to \code{sqrt(length(code))}. Default get them for you.
 #' @param out.summary Is the result to be summarized? For example,
-#' (2, 3, 0, 0, 1) can be summarized as [2, 5; 3, 1].
+#' (2, 3, 0, 0, 1) can be summarized as [2, 5; 3, 1]. Default is \code{FALSE}.
 #' @examples
 #' code100 <- c(rep(0, 99), 1)
 #' ReducePrime(c(rep(0, 99), 1), out.summary = TRUE)

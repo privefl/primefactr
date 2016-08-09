@@ -1,4 +1,4 @@
-[![Project Status: Active ? The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Build Status](https://travis-ci.org/search/search.svg?branch=master)](https://travis-ci.org/search/search) [![codecov](https://codecov.io/gh/search/search/branch/master/graph/badge.svg)](https://codecov.io/gh/search/search)
+[![Project Status: Active ? The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Build Status](https://travis-ci.org/privefl/primefactr.svg?branch=master)](https://travis-ci.org/privefl/primefactr) [![codecov](https://codecov.io/gh/privefl/primefactr/branch/master/graph/badge.svg)](https://codecov.io/gh/privefl/primefactr)
 
 ------------------------------------------------------------------------
 

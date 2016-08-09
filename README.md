@@ -35,9 +35,7 @@ Features
 ### Main feature
 
 -   To compute
-    <center>
-    <p>
+    <p align="center">
     ![](CodeCogsEqn.png),
     </p>
-    </center>
     you can use `ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))` and `plot(x, xlab = "xlab")`.

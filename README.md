@@ -34,4 +34,10 @@ Features
 
 ### Main feature
 
--   To compute \(P(X = k) = \dfrac{\binom{K}{k}~\binom{N-K}{n-k}}{\binom{N}{n}} = \dfrac{K!~(N-K)!~n!~(N-n)!}{k!~(K-k)!~(n-k)!~(N-K-n+k)!~N!}\)
+-   To compute
+    <center>
+    <p>
+    \[CodeCogsEqn.png\],
+    </p>
+    </center>
+    you can use ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N)).

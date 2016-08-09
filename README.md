@@ -35,8 +35,8 @@ Features
 ### Main feature
 
 To compute
-<p>
-<img align="center" src="CodeCogsEqn.png"> ,
+<p align="center">
+<img src="CodeCogsEqn.png"> ,
 </p>
 you can use `ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))`. This uses a Prime Factorization to simplify computations.
 

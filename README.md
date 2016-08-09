@@ -1,4 +1,4 @@
-[![Project Status: WIP ? Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip) [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Build Status](https://travis-ci.org/privefl/primefactr.svg?branch=master)](https://travis-ci.org/privefl/primefactr) [![codecov](https://codecov.io/gh/privefl/primefactr/branch/master/graph/badge.svg)](https://codecov.io/gh/privefl/primefactr)
+[![Project Status: Inactive ? The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive) [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![Build Status](https://travis-ci.org/privefl/primefactr.svg?branch=master)](https://travis-ci.org/privefl/primefactr) [![codecov](https://codecov.io/gh/privefl/primefactr/branch/master/graph/badge.svg)](https://codecov.io/gh/privefl/primefactr)
 
 ------------------------------------------------------------------------
 
@@ -8,10 +8,29 @@
 
 ------------------------------------------------------------------------
 
-[![Last-changedate](https://img.shields.io/badge/last%20change-2016--08--09-yellowgreen.svg)](/commits/master)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2016--08--10-yellowgreen.svg)](/commits/master)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 primefactr
 ==========
 
 R package that uses Prime Factorization for computations.
+
+This small R package was initially developed to compute [hypergeometric probabilities](https://en.wikipedia.org/wiki/Hypergeometric_distribution) which are used in Fisher's exact test, for instance.
+
+Installation and Attachment
+---------------------------
+
+``` r
+## Installation
+install.packages("primefactr")
+
+## Attachment
+library("primefactr")
+```
+
+Features
+--------
+
+-   To compute \[P(X = k) = \dfrac{{K}\choose{k} {N-K}\choose{n-k}}{{N}\choose{n} = 
+    \dfrac{K! (N-K)! n! (N-n)!}{k! (K-k)! (n-k)! (N-K-n+k)! N!}\], you can use `{r, eval = FALSE} ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))`.

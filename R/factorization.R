@@ -42,9 +42,9 @@ ReducePrime <- function(code, out.summary = FALSE, primes.div = NULL) {
       }
     }
   }
+  code[1] <- 0  # convention
 
   if (out.summary) {
-    code[1] <- 0
     primes <- which(code != 0)
     return(rbind(primes = primes, power = code[primes]))
   } else {

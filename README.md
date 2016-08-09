@@ -36,8 +36,6 @@ Features
 
 -   To compute
     <center>
-    <p>
-    \[CodeCogsEqn.png\],
-    </p>
+    ![](CodeCogsEqn.png),
     </center>
-    you can use ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N)).
+    you can use `ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))`.

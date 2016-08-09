@@ -34,4 +34,6 @@ Features
 
 ### Main feature
 
--   To compute \(P(X = k) = \dfrac{{K}\choose{k} {N-K}\choose{n-k}}{{N}\choose{n} = \dfrac{K! (N-K)! n! (N-n)!}{k! (K-k)! (n-k)! (N-K-n+k)! N!}\), you can use `r ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))`.
+-   To compute \(P(X = k) = \dfrac{{K}\choose{k} {N-K}\choose{n-k}}{{N}\choose{n} = \dfrac{K! (N-K)! n! (N-n)!}{k! (K-k)! (n-k)! (N-K-n+k)! N!}\), you can use
+    <pre>ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))</pre>
+    .

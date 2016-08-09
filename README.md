@@ -34,8 +34,12 @@ Features
 
 ### Main feature
 
--   To compute
-    <p align="center">
-    ![](CodeCogsEqn.png),
-    </p>
-    you can use `ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))` and .
+To compute
+<p align="center">
+![](CodeCogsEqn.png),
+</p>
+you can use `ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))`. This uses a Prime Factorization to simplify computations.
+
+### Play with primes
+
+You can also test if a number is a prime and get all prime numbers up to a certain number.

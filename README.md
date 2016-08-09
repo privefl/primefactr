@@ -38,4 +38,4 @@ Features
     <p align="center">
     ![](CodeCogsEqn.png),
     </p>
-    you can use `ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))` and `plot(x, xlab = "xlab")`.
+    you can use `ComputeDivFact(c(K, (N-K), n, (N-n)), c(k, (K-k), (n-k), (N-K-n+k), N))` and .

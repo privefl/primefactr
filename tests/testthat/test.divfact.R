@@ -9,6 +9,16 @@ test_that("Check some equalities", {
                lfactorial(100))
 })
 
+test_that("Check some equalities with wikipedia", {
+  test <- function(k, N, K, n) {
+    ComputeDivFact(c(K, (N-K), n, (N-n)),
+                   c(k, (K-k), (n-k), (N-K-n+k), N))
+  }
+
+  expect_equal(test(4, 50, 5, 10), 0.003964583)
+  expect_equal(test(5, 50, 5, 10), 0.0001189375)
+})
+
 
 
 

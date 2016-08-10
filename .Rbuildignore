@@ -5,3 +5,4 @@
 ^README\.html$
 ^README-.*\.png$
 ^.*\.png$
+^cran-comments\.md$

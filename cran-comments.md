@@ -1,3 +1,9 @@
+## Resubmission
+
+This is a resubmission. In this version I have:
+
+* Changed my last name from 'Priv?' to 'Privé'.
+
 ## Test environments
 
 * local Windows 8.1 x64, R 3.2.5
@@ -9,7 +15,7 @@
 0 errors | 0 warnings | 2 notes
 
 ### First note
-    Maintainer: 'Florian Priv? <florian.prive.21@gmail.com>'
+    Maintainer: 'Florian Privé <florian.prive.21@gmail.com>'
     New submission
 
 -> This is my first submission

@@ -6,21 +6,19 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 2 notes
 
-Maintainer: 'Florian Priv? <florian.prive.21@gmail.com>'
+### First note
+    Maintainer: 'Florian Priv? <florian.prive.21@gmail.com>'
+    New submission
 
-New submission
+-> This is my first submission
 
-* This is my first submission
+### Second node
 
-Found the following (possibly) invalid URLs:
-  URL: https://cran.r-project.org/package=primefactr
-    From: README.md
-    Status: 404
-    Message: Not Found
-    
-* The URL will be found when the package is accepted.
+    File README.md cannot be checked without ‘pandoc’ being installed. 
+
+-> I can't get rid of this unless I add the README.md file to .Rbuildignore, which does not seems like a good strategy. So I am ignorig this for now, hoping that the CRAN servers will have pandoc.
 
 ## Reverse dependencies
 

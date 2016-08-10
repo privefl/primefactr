@@ -3,10 +3,11 @@ Package: primefactr
 Type: Package
 Title: Use Prime Factorization for Computations
 Version: 0.1.0
-Authors@R: person("Florian", "Priv?",
+Authors@R: person("Florian", "Privé",
     email = "florian.prive.21@gmail.com",
     role = c("aut", "cre"))
-Description: Use Prime Factorization for simplifying computations, for instance for ratios of large factorials.
+Description: Use Prime Factorization for simplifying computations,
+    for instance for ratios of large factorials.
 License: GPL-3
 LazyData: TRUE
 Depends: R (>= 3.2.3)

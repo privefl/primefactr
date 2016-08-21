@@ -29,18 +29,10 @@ IsPrime <- function(n) {
 #' @export
 AllPrimesUpTo <- function(n) {
   check(n)
-  if (n == 1) {
-    return(integer(0))
-  } else if (n == 2) {
-    return(2L)
-  } else if (n == 3) {
-    return(c(2L, 3L))
-  } else {
-    primes <- rep(TRUE, n)
-    primes[1] <- FALSE
-    for (i in 2:sqrt(n)) {
-      if (primes[i]) primes[seq(2*i, n, i)] <- FALSE
-    }
-    return(which(primes))
+  primes <- rep(TRUE, n)
+  primes[1] <- FALSE
+  for (i in 1:sqrt(n)) {
+    if (primes[i]) primes[seq(2*i, n, i)] <- FALSE
   }
+  which(primes)
 }

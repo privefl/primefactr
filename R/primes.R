@@ -1,5 +1,6 @@
 #' @title Is a prime number?
-#' @description Is n a prime number?
+#' @description Is n a prime number? You can see what is a
+#' prime number [there](https://en.wikipedia.org/wiki/Prime_number).
 #' @inheritParams primefactr-package
 #' @examples
 #' IsPrime(1)         # FALSE

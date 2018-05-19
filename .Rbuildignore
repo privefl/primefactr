@@ -7,3 +7,4 @@
 ^.*\.png$
 ^cran-comments\.md$
 blog
+^docs$
